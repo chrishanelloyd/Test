@@ -288,7 +288,7 @@ namespace AutoParts
 
         private void itemsWithoutBarcodes(object sender, EventArgs e)
         {
-            this.paymentGrid.Rows.Add(0, 0, "Items Without Barcodes", "Other", 1, "", 0, 0);
+            this.paymentGrid.Rows.Add(0, 0, "Items Without Barcode", "Other", 1, "", 0, 0);
         }
 
         private void label1_Click_2(object sender, EventArgs e)
